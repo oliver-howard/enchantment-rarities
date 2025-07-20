@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "better-enchant-names",
+	"version": "${version}",
+	"name": "Better Enchant Names",
+	"description": "Enhances enchantment names with color-coded rarity and helpful type symbols",
+	"authors": [
+		"BetterEnchantNames Team"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/better-enchant-names/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"top.cfti.betterenchantnames.BetterEnchantNamesClient"
+		]
+	},
+	"mixins": [
+		"better-enchant-names.mixins.json",
+		{
+			"config": "better-enchant-names.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.7",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
