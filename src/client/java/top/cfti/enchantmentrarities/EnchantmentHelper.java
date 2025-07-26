@@ -1,4 +1,4 @@
-package top.cfti.betterenchantnames;
+package top.cfti.enchantmentrarities;
 
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.registry.entry.RegistryEntry;

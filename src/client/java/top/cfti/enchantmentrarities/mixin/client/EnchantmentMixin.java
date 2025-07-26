@@ -1,4 +1,4 @@
-package top.cfti.betterenchantnames.mixin.client;
+package top.cfti.enchantmentrarities.mixin.client;
 
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.registry.entry.RegistryEntry;
@@ -7,7 +7,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-import top.cfti.betterenchantnames.EnchantmentHelper;
+import top.cfti.enchantmentrarities.EnchantmentHelper;
 
 @Mixin(Enchantment.class)
 public class EnchantmentMixin {

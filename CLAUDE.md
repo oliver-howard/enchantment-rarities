@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Minecraft Fabric mod for version 1.21.7 called "Better Enchant Names". The project uses:
+This is a Minecraft Fabric mod for version 1.21.7 called "Enchantment Rarities". The project uses:
 - Java 21 (required for build)
 - Fabric Loader 0.16.14
 - Fabric API 0.129.0+1.21.7
@@ -25,16 +25,16 @@ This is a Minecraft Fabric mod for version 1.21.7 called "Better Enchant Names".
 The mod follows Fabric's standard structure with split environments:
 
 ### Main Components
-- `src/main/java/top/cfti/betterenchantnames/BetterEnchantNames.java` - Main mod initialization class
-- `src/client/java/top/cfti/betterenchantnames/BetterEnchantNamesClient.java` - Client-side initialization
+- `src/main/java/top/cfti/enchantmentrarities/EnchantmentRarities.java` - Main mod initialization class
+- `src/client/java/top/cfti/enchantmentrarities/EnchantmentRaritiesClient.java` - Client-side initialization
 - `src/main/resources/fabric.mod.json` - Mod metadata and configuration
-- `src/main/resources/better-enchant-names.mixins.json` - Server-side Mixin configuration
-- `src/client/resources/better-enchant-names.client.mixins.json` - Client-side Mixin configuration
+- `src/main/resources/enchantment-rarities.mixins.json` - Server-side Mixin configuration
+- `src/client/resources/enchantment-rarities.client.mixins.json` - Client-side Mixin configuration
 
 ### Mixin System
 The project uses Fabric's Mixin framework for code injection:
-- Main mixins in `top.cfti.betterenchantnames.mixin` package
-- Client mixins in `top.cfti.betterenchantnames.mixin.client` package
+- Main mixins in `top.cfti.enchantmentrarities.mixin` package
+- Client mixins in `top.cfti.enchantmentrarities.mixin.client` package
 - Both require Java 21 compatibility level
 
 ### Key Configuration Files
@@ -44,8 +44,8 @@ The project uses Fabric's Mixin framework for code injection:
 
 ## Development Notes
 
-- The mod ID is "better-enchant-names"
-- Main package: `top.cfti.betterenchantnames`
-- Uses SLF4J for logging via `BetterEnchantNames.LOGGER`
+- The mod ID is "enchantment-rarities"
+- Main package: `top.cfti.enchantmentrarities`
+- Uses SLF4J for logging via `EnchantmentRarities.LOGGER`
 - Split environment setup allows separate client and server code
 - Fabric Loom provides Minecraft development environment and mappings

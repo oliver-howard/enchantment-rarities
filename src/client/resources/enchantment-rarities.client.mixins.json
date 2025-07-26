@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "top.cfti.betterenchantnames.mixin.client",
+	"package": "top.cfti.enchantmentrarities.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
 		"EnchantmentMixin"
