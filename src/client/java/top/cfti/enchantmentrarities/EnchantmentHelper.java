@@ -74,9 +74,9 @@ public class EnchantmentHelper {
         // Armor enchantments
         // Protection
         RARITY_MAP.put("minecraft:protection:1", EnchantmentRarity.COMMON);
-        RARITY_MAP.put("minecraft:protection:2", EnchantmentRarity.COMMON);
-        RARITY_MAP.put("minecraft:protection:3", EnchantmentRarity.UNCOMMON);
-        RARITY_MAP.put("minecraft:protection:4", EnchantmentRarity.UNCOMMON);
+        RARITY_MAP.put("minecraft:protection:2", EnchantmentRarity.UNCOMMON);
+        RARITY_MAP.put("minecraft:protection:3", EnchantmentRarity.RARE);
+        RARITY_MAP.put("minecraft:protection:4", EnchantmentRarity.VERY_RARE);
 
         // Fire Protection
         RARITY_MAP.put("minecraft:fire_protection:1", EnchantmentRarity.COMMON);
