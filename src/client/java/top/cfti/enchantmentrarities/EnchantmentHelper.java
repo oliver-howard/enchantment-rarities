@@ -80,30 +80,30 @@ public class EnchantmentHelper {
 
         // Fire Protection
         RARITY_MAP.put("minecraft:fire_protection:1", EnchantmentRarity.COMMON);
-        RARITY_MAP.put("minecraft:fire_protection:2", EnchantmentRarity.UNCOMMON);
+        RARITY_MAP.put("minecraft:fire_protection:2", EnchantmentRarity.COMMON);
         RARITY_MAP.put("minecraft:fire_protection:3", EnchantmentRarity.UNCOMMON);
-        RARITY_MAP.put("minecraft:fire_protection:4", EnchantmentRarity.UNCOMMON);
+        RARITY_MAP.put("minecraft:fire_protection:4", EnchantmentRarity.RARE);
 
         // Feather Falling
         RARITY_MAP.put("minecraft:feather_falling:1", EnchantmentRarity.COMMON);
-        RARITY_MAP.put("minecraft:feather_falling:2", EnchantmentRarity.COMMON);
-        RARITY_MAP.put("minecraft:feather_falling:3", EnchantmentRarity.COMMON);
-        RARITY_MAP.put("minecraft:feather_falling:4", EnchantmentRarity.UNCOMMON);
+        RARITY_MAP.put("minecraft:feather_falling:2", EnchantmentRarity.UNCOMMON);
+        RARITY_MAP.put("minecraft:feather_falling:3", EnchantmentRarity.RARE);
+        RARITY_MAP.put("minecraft:feather_falling:4", EnchantmentRarity.VERY_RARE);
 
         // Blast Protection
         RARITY_MAP.put("minecraft:blast_protection:1", EnchantmentRarity.COMMON);
         RARITY_MAP.put("minecraft:blast_protection:2", EnchantmentRarity.COMMON);
         RARITY_MAP.put("minecraft:blast_protection:3", EnchantmentRarity.UNCOMMON);
-        RARITY_MAP.put("minecraft:blast_protection:4", EnchantmentRarity.UNCOMMON);
+        RARITY_MAP.put("minecraft:blast_protection:4", EnchantmentRarity.RARE);
 
         // Projectile Protection
         RARITY_MAP.put("minecraft:projectile_protection:1", EnchantmentRarity.COMMON);
         RARITY_MAP.put("minecraft:projectile_protection:2", EnchantmentRarity.COMMON);
-        RARITY_MAP.put("minecraft:projectile_protection:3", EnchantmentRarity.COMMON);
-        RARITY_MAP.put("minecraft:projectile_protection:4", EnchantmentRarity.UNCOMMON);
+        RARITY_MAP.put("minecraft:projectile_protection:3", EnchantmentRarity.UNCOMMON);
+        RARITY_MAP.put("minecraft:projectile_protection:4", EnchantmentRarity.RARE);
 
         // Respiration
-        RARITY_MAP.put("minecraft:respiration:1", EnchantmentRarity.UNCOMMON);
+        RARITY_MAP.put("minecraft:respiration:1", EnchantmentRarity.COMMON);
         RARITY_MAP.put("minecraft:respiration:2", EnchantmentRarity.UNCOMMON);
         RARITY_MAP.put("minecraft:respiration:3", EnchantmentRarity.RARE);
 
@@ -111,51 +111,51 @@ public class EnchantmentHelper {
         RARITY_MAP.put("minecraft:aqua_affinity:1", EnchantmentRarity.UNCOMMON);
 
         // Thorns
-        RARITY_MAP.put("minecraft:thorns:1", EnchantmentRarity.UNCOMMON);
-        RARITY_MAP.put("minecraft:thorns:2", EnchantmentRarity.RARE);
-        RARITY_MAP.put("minecraft:thorns:3", EnchantmentRarity.VERY_RARE);
+        RARITY_MAP.put("minecraft:thorns:1", EnchantmentRarity.COMMON);
+        RARITY_MAP.put("minecraft:thorns:2", EnchantmentRarity.UNCOMMON);
+        RARITY_MAP.put("minecraft:thorns:3", EnchantmentRarity.RARE);
 
         // Depth Strider
         RARITY_MAP.put("minecraft:depth_strider:1", EnchantmentRarity.COMMON);
         RARITY_MAP.put("minecraft:depth_strider:2", EnchantmentRarity.UNCOMMON);
-        RARITY_MAP.put("minecraft:depth_strider:3", EnchantmentRarity.UNCOMMON);
+        RARITY_MAP.put("minecraft:depth_strider:3", EnchantmentRarity.RARE);
 
         // Frost Walker
         RARITY_MAP.put("minecraft:frost_walker:1", EnchantmentRarity.COMMON);
-        RARITY_MAP.put("minecraft:frost_walker:2", EnchantmentRarity.UNCOMMON);
+        RARITY_MAP.put("minecraft:frost_walker:2", EnchantmentRarity.RARE);
 
         // Soul Speed
-        RARITY_MAP.put("minecraft:soul_speed:1", EnchantmentRarity.UNCOMMON);
-        RARITY_MAP.put("minecraft:soul_speed:2", EnchantmentRarity.RARE);
-        RARITY_MAP.put("minecraft:soul_speed:3", EnchantmentRarity.RARE);
+        RARITY_MAP.put("minecraft:soul_speed:1", EnchantmentRarity.RARE);
+        RARITY_MAP.put("minecraft:soul_speed:2", EnchantmentRarity.VERY_RARE);
+        RARITY_MAP.put("minecraft:soul_speed:3", EnchantmentRarity.LEGENDARY);
 
         // Swift Sneak
-        RARITY_MAP.put("minecraft:swift_sneak:1", EnchantmentRarity.VERY_RARE);
-        RARITY_MAP.put("minecraft:swift_sneak:2", EnchantmentRarity.LEGENDARY);
+        RARITY_MAP.put("minecraft:swift_sneak:1", EnchantmentRarity.RARE);
+        RARITY_MAP.put("minecraft:swift_sneak:2", EnchantmentRarity.VERY_RARE);
         RARITY_MAP.put("minecraft:swift_sneak:3", EnchantmentRarity.LEGENDARY);
 
 
-        // Sword enchantments
+        // Melee Weapon enchantments
         // Sharpness
         RARITY_MAP.put("minecraft:sharpness:1", EnchantmentRarity.COMMON);
         RARITY_MAP.put("minecraft:sharpness:2", EnchantmentRarity.UNCOMMON);
-        RARITY_MAP.put("minecraft:sharpness:3", EnchantmentRarity.UNCOMMON);
-        RARITY_MAP.put("minecraft:sharpness:4", EnchantmentRarity.RARE);
-        RARITY_MAP.put("minecraft:sharpness:5", EnchantmentRarity.RARE);
+        RARITY_MAP.put("minecraft:sharpness:3", EnchantmentRarity.RARE);
+        RARITY_MAP.put("minecraft:sharpness:4", EnchantmentRarity.VERY_RARE);
+        RARITY_MAP.put("minecraft:sharpness:5", EnchantmentRarity.LEGENDARY);
 
         // Smite
         RARITY_MAP.put("minecraft:smite:1", EnchantmentRarity.COMMON);
-        RARITY_MAP.put("minecraft:smite:2", EnchantmentRarity.UNCOMMON);
+        RARITY_MAP.put("minecraft:smite:2", EnchantmentRarity.COMMON);
         RARITY_MAP.put("minecraft:smite:3", EnchantmentRarity.UNCOMMON);
-        RARITY_MAP.put("minecraft:smite:4", EnchantmentRarity.UNCOMMON);
-        RARITY_MAP.put("minecraft:smite:5", EnchantmentRarity.RARE);
+        RARITY_MAP.put("minecraft:smite:4", EnchantmentRarity.RARE);
+        RARITY_MAP.put("minecraft:smite:5", EnchantmentRarity.VERY_RARE);
 
         // Bane of Arthropods
         RARITY_MAP.put("minecraft:bane_of_arthropods:1", EnchantmentRarity.COMMON);
-        RARITY_MAP.put("minecraft:bane_of_arthropods:2", EnchantmentRarity.UNCOMMON);
+        RARITY_MAP.put("minecraft:bane_of_arthropods:2", EnchantmentRarity.COMMON);
         RARITY_MAP.put("minecraft:bane_of_arthropods:3", EnchantmentRarity.UNCOMMON);
-        RARITY_MAP.put("minecraft:bane_of_arthropods:4", EnchantmentRarity.UNCOMMON);
-        RARITY_MAP.put("minecraft:bane_of_arthropods:5", EnchantmentRarity.RARE);
+        RARITY_MAP.put("minecraft:bane_of_arthropods:4", EnchantmentRarity.RARE);
+        RARITY_MAP.put("minecraft:bane_of_arthropods:5", EnchantmentRarity.VERY_RARE);
         
         // Knockback
         RARITY_MAP.put("minecraft:knockback:1", EnchantmentRarity.UNCOMMON);
@@ -168,21 +168,39 @@ public class EnchantmentHelper {
         // Looting
         RARITY_MAP.put("minecraft:looting:1", EnchantmentRarity.UNCOMMON);
         RARITY_MAP.put("minecraft:looting:2", EnchantmentRarity.RARE);
-        RARITY_MAP.put("minecraft:looting:3", EnchantmentRarity.RARE);
+        RARITY_MAP.put("minecraft:looting:3", EnchantmentRarity.VERY_RARE);
 
         // Sweeping Edge
-        RARITY_MAP.put("minecraft:sweeping_edge:1", EnchantmentRarity.COMMON);
-        RARITY_MAP.put("minecraft:sweeping_edge:2", EnchantmentRarity.UNCOMMON);
-        RARITY_MAP.put("minecraft:sweeping_edge:3", EnchantmentRarity.UNCOMMON);
+        RARITY_MAP.put("minecraft:sweeping_edge:1", EnchantmentRarity.UNCOMMON);
+        RARITY_MAP.put("minecraft:sweeping_edge:2", EnchantmentRarity.RARE);
+        RARITY_MAP.put("minecraft:sweeping_edge:3", EnchantmentRarity.VERY_RARE);
+
+        // Breach
+        RARITY_MAP.put("minecraft:breach:1", EnchantmentRarity.COMMON);
+        RARITY_MAP.put("minecraft:breach:2", EnchantmentRarity.COMMON);
+        RARITY_MAP.put("minecraft:breach:3", EnchantmentRarity.UNCOMMON);
+        RARITY_MAP.put("minecraft:breach:4", EnchantmentRarity.RARE);
+
+        // Density
+        RARITY_MAP.put("minecraft:density:1", EnchantmentRarity.COMMON);
+        RARITY_MAP.put("minecraft:density:2", EnchantmentRarity.COMMON);
+        RARITY_MAP.put("minecraft:density:3", EnchantmentRarity.UNCOMMON);
+        RARITY_MAP.put("minecraft:density:4", EnchantmentRarity.RARE);
+        RARITY_MAP.put("minecraft:density:5", EnchantmentRarity.VERY_RARE);
+
+        // Wind Burst
+        RARITY_MAP.put("minecraft:wind_burst:1", EnchantmentRarity.RARE);
+        RARITY_MAP.put("minecraft:wind_burst:2", EnchantmentRarity.VERY_RARE);
+        RARITY_MAP.put("minecraft:wind_burst:3", EnchantmentRarity.LEGENDARY);
 
 
         // Bow enchantments
         // Power
         RARITY_MAP.put("minecraft:power:1", EnchantmentRarity.COMMON);
-        RARITY_MAP.put("minecraft:power:2", EnchantmentRarity.COMMON);
-        RARITY_MAP.put("minecraft:power:3", EnchantmentRarity.UNCOMMON);
-        RARITY_MAP.put("minecraft:power:4", EnchantmentRarity.UNCOMMON);
-        RARITY_MAP.put("minecraft:power:5", EnchantmentRarity.RARE);
+        RARITY_MAP.put("minecraft:power:2", EnchantmentRarity.UNCOMMON);
+        RARITY_MAP.put("minecraft:power:3", EnchantmentRarity.RARE);
+        RARITY_MAP.put("minecraft:power:4", EnchantmentRarity.VERY_RARE);
+        RARITY_MAP.put("minecraft:power:5", EnchantmentRarity.LEGENDARY);
 
         // Punch
         RARITY_MAP.put("minecraft:punch:1", EnchantmentRarity.UNCOMMON);
@@ -192,35 +210,35 @@ public class EnchantmentHelper {
         RARITY_MAP.put("minecraft:flame:1", EnchantmentRarity.UNCOMMON);
 
         // Infinity (always rare regardless of level)
-        RARITY_MAP.put("minecraft:infinity:1", EnchantmentRarity.VERY_RARE);
+        RARITY_MAP.put("minecraft:infinity:1", EnchantmentRarity.RARE);
 
 
         // Tool Enchantments
         // Efficiency
-        RARITY_MAP.put("minecraft:efficiency:1", EnchantmentRarity.UNCOMMON);
+        RARITY_MAP.put("minecraft:efficiency:1", EnchantmentRarity.COMMON);
         RARITY_MAP.put("minecraft:efficiency:2", EnchantmentRarity.UNCOMMON);
         RARITY_MAP.put("minecraft:efficiency:3", EnchantmentRarity.RARE);
-        RARITY_MAP.put("minecraft:efficiency:4", EnchantmentRarity.RARE);
-        RARITY_MAP.put("minecraft:efficiency:5", EnchantmentRarity.VERY_RARE);
+        RARITY_MAP.put("minecraft:efficiency:4", EnchantmentRarity.VERY_RARE);
+        RARITY_MAP.put("minecraft:efficiency:5", EnchantmentRarity.LEGENDARY);
 
         // Silk Touch (always rare regardless of level)
         RARITY_MAP.put("minecraft:silk_touch:1", EnchantmentRarity.RARE);
 
         // Fortune
-        RARITY_MAP.put("minecraft:fortune:1", EnchantmentRarity.UNCOMMON);
-        RARITY_MAP.put("minecraft:fortune:2", EnchantmentRarity.RARE);
-        RARITY_MAP.put("minecraft:fortune:3", EnchantmentRarity.RARE);
+        RARITY_MAP.put("minecraft:fortune:1", EnchantmentRarity.RARE);
+        RARITY_MAP.put("minecraft:fortune:2", EnchantmentRarity.VERY_RARE);
+        RARITY_MAP.put("minecraft:fortune:3", EnchantmentRarity.LEGENDARY);
 
 
         // Fishing Rod Enchantments
         // Luck of the Sea 
-        RARITY_MAP.put("minecraft:luck_of_the_sea:1", EnchantmentRarity.UNCOMMON);
-        RARITY_MAP.put("minecraft:luck_of_the_sea:2", EnchantmentRarity.RARE);
+        RARITY_MAP.put("minecraft:luck_of_the_sea:1", EnchantmentRarity.COMMON);
+        RARITY_MAP.put("minecraft:luck_of_the_sea:2", EnchantmentRarity.UNCOMMON);
         RARITY_MAP.put("minecraft:luck_of_the_sea:3", EnchantmentRarity.RARE);
 
         // Lure
-        RARITY_MAP.put("minecraft:lure:1", EnchantmentRarity.UNCOMMON);
-        RARITY_MAP.put("minecraft:lure:2", EnchantmentRarity.RARE);
+        RARITY_MAP.put("minecraft:lure:1", EnchantmentRarity.COMMON);
+        RARITY_MAP.put("minecraft:lure:2", EnchantmentRarity.UNCOMMON);
         RARITY_MAP.put("minecraft:lure:3", EnchantmentRarity.RARE);
 
 
@@ -236,9 +254,9 @@ public class EnchantmentHelper {
         RARITY_MAP.put("minecraft:impaling:5", EnchantmentRarity.RARE);
 
         // Loyalty
-        RARITY_MAP.put("minecraft:loyalty:1", EnchantmentRarity.UNCOMMON);
+        RARITY_MAP.put("minecraft:loyalty:1", EnchantmentRarity.COMMON);
         RARITY_MAP.put("minecraft:loyalty:2", EnchantmentRarity.UNCOMMON);
-        RARITY_MAP.put("minecraft:loyalty:3", EnchantmentRarity.UNCOMMON);
+        RARITY_MAP.put("minecraft:loyalty:3", EnchantmentRarity.RARE);
 
         // Riptide
         RARITY_MAP.put("minecraft:riptide:1", EnchantmentRarity.UNCOMMON);
@@ -251,22 +269,22 @@ public class EnchantmentHelper {
         RARITY_MAP.put("minecraft:multishot:1", EnchantmentRarity.UNCOMMON);
 
         // Piercing
-        RARITY_MAP.put("minecraft:piercing:1", EnchantmentRarity.UNCOMMON);
-        RARITY_MAP.put("minecraft:piercing:2", EnchantmentRarity.UNCOMMON);
+        RARITY_MAP.put("minecraft:piercing:1", EnchantmentRarity.COMMON);
+        RARITY_MAP.put("minecraft:piercing:2", EnchantmentRarity.COMMON);
         RARITY_MAP.put("minecraft:piercing:3", EnchantmentRarity.UNCOMMON);
         RARITY_MAP.put("minecraft:piercing:4", EnchantmentRarity.RARE);
 
         // Quick Charge
-        RARITY_MAP.put("minecraft:quick_charge:1", EnchantmentRarity.UNCOMMON);
-        RARITY_MAP.put("minecraft:quick_charge:2", EnchantmentRarity.RARE);
+        RARITY_MAP.put("minecraft:quick_charge:1", EnchantmentRarity.COMMON);
+        RARITY_MAP.put("minecraft:quick_charge:2", EnchantmentRarity.UNCOMMON);
         RARITY_MAP.put("minecraft:quick_charge:3", EnchantmentRarity.RARE);
 
 
         // "Anything" enchantments
         // Unbreaking
         RARITY_MAP.put("minecraft:unbreaking:1", EnchantmentRarity.UNCOMMON);
-        RARITY_MAP.put("minecraft:unbreaking:2", EnchantmentRarity.UNCOMMON);
-        RARITY_MAP.put("minecraft:unbreaking:3", EnchantmentRarity.RARE);
+        RARITY_MAP.put("minecraft:unbreaking:2", EnchantmentRarity.RARE);
+        RARITY_MAP.put("minecraft:unbreaking:3", EnchantmentRarity.VERY_RARE);
 
         // Mending
         RARITY_MAP.put("minecraft:mending:1", EnchantmentRarity.VERY_RARE);      
