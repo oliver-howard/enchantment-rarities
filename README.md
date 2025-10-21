@@ -33,15 +33,15 @@ A client-side Minecraft mod that enhances enchantment names with color-coded rar
 ## 🔧 Installation
 
 ### Requirements
-- **Minecraft 1.21.7**
+- **Minecraft 1.21.9**
 - **Fabric Loader 0.16.14+**
-- **Fabric API 0.129.0+**
+- **Fabric API 0.131.0+**
 - **Java 21+**
 
 ### Steps
 1. Install [Fabric Loader](https://fabricmc.net/use/installer/)
 2. Download [Fabric API](https://modrinth.com/mod/fabric-api)
-3. Download the latest `better-enchant-names-1.0.0.jar` from releases
+3. Download the latest `enchantment-rarities-1.1.1.jar` from releases
 4. Place both JAR files in your `.minecraft/mods` folder
 5. Launch Minecraft with the Fabric profile
 

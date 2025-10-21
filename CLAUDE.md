@@ -4,10 +4,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Minecraft Fabric mod for version 1.21.7 called "Enchantment Rarities". The project uses:
+This is a Minecraft Fabric mod for version 1.21.9 called "Enchantment Rarities". The project uses:
 - Java 21 (required for build)
 - Fabric Loader 0.16.14
-- Fabric API 0.129.0+1.21.7
+- Fabric API 0.131.0+1.21.9
 - Fabric Loom 1.11-SNAPSHOT for building
 
 ## Build Commands

@@ -9,7 +9,7 @@ classes/
 # eclipse
 
 *.launch
-
+*.numbers
 # idea
 
 .idea/
